@@ -3,7 +3,7 @@
 
 
 <details>
-<summary>## Install Git</summary>
+##<summary>Install Git</summary>
 <br>
 1. To install Git visit - https://git-scm.com/
 2. Follow the below steps for the installation
@@ -40,8 +40,8 @@
    ![step-16](git-steps/g-16.png)
 
    ![step-17](git-steps/g-17.png)
-
 </details>
+
 ##
 
 
