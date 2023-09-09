@@ -60,6 +60,19 @@ hey
 <summary><h2>Git commands</h2></summary>
 <br>
 
+1. Create a folder on your Desktop named "test"
+
+2. Right click on it and select "Git Bash Here"
+
+   ![step-1](git-commands/w-1.png)
+
+4. Open the folder "test"
+
+5. In the Git console write the command
+```
+git init
+```
+
 hey
 hey
 hey
