@@ -64,7 +64,7 @@ hey
 
 2. Right click on it and select "Git Bash Here"
 
-   ![step-1](git-commands/w-1.png)
+   ![1](git-commands/w-1.png)
 
 4. Open the folder "test"
 
@@ -72,6 +72,7 @@ hey
    ```
    git init
    ```
+   ![2](git-commands/w-2.png)
 
 
 </details>
