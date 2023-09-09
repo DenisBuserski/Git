@@ -50,4 +50,17 @@
 <br>
 
 hey
+hey
+hey
+</details>
+
+##
+
+<details>
+<summary><h2>Git commands</h2></summary>
+<br>
+
+hey
+hey
+hey
 </details>
