@@ -1,12 +1,9 @@
 # How to use Git
 
 
-How do I dropdown?
-This is how you dropdown.
-
 
 <details>
-<summary> ## Install Git </summary>
+<h2><summary>Install Git</summary></h2>
 <br>
    
 1. To install Git visit - https://git-scm.com/
