@@ -34,3 +34,8 @@
    ![step-14](git-steps/g-14.png)
 
    ![step-15](git-steps/g-15.png)
+
+   ![step-16](git-steps/g-16.png)
+
+   ![step-17](git-steps/g-17.png)
+
