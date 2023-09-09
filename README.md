@@ -9,9 +9,20 @@
    </ol>
    <ol>
       Follow the below steps for the installation
+         <ol> ![step-1](git-steps/g-1.png) </ol>
+         <ol></ol>
+         <ol></ol>
+         <ol></ol>
+         <ol></ol>
+         <ol></ol>
+         <ol></ol>
+         <ol></ol>
+         <ol></ol>
+         <ol></ol>
+         
    </ol>
    
-   ![step-1](git-steps/g-1.png)
+  
 
    ![step-2](git-steps/g-2.png)
 
