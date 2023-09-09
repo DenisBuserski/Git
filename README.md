@@ -1,7 +1,6 @@
 # How to use Git
 
 
-
 <details>
 <summary><h2>Install Git</h2></summary>
 <br>
@@ -41,7 +40,6 @@
    ![step-16](git-steps/g-16.png)
 
    ![step-17](git-steps/g-17.png)
-
 </details>
 
 ##
