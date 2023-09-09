@@ -86,6 +86,17 @@ hey
    ```
    git status
    ```
-   ![4](git-commands/w-4.png)   
+   ![4](git-commands/w-4.png)
+
+   From the result we got, it can be seen that we don't have any commits and we have 1 untracked files.
+
+7. As mentioned in the result we got from the previous point we need to use:
+   ```
+   git add file-1.txt
+   ```
+
+
+
+8.
 
 </details>
