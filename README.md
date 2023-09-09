@@ -4,8 +4,7 @@
 <details>
 <summary><h2>Install Git</h2></summary>
 <br>
-<li>
-   <ol>
+<ol>
       To install Git visit - https://git-scm.com/
    </ol>
    <ol>
@@ -45,7 +44,7 @@
    ![step-16](git-steps/g-16.png)
 
    ![step-17](git-steps/g-17.png)
-</li>
+
 </details>
 
 ##
