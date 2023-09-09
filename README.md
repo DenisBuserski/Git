@@ -8,24 +8,19 @@
 1. To install Git visit - https://git-scm.com/
 2. Follow the below steps for the installation
 
-     ![step-1](git-steps/g-1.png) </ol>
+     ![step-1](git-steps/g-1.png) 
      
-         
-  
-   
-  
+     ![step-2](git-steps/g-2.png)
 
-   ![step-2](git-steps/g-2.png)
+     ![step-3](git-steps/g-3.png)
 
-   ![step-3](git-steps/g-3.png)
+     ![step-4](git-steps/g-4.png)
 
-   ![step-4](git-steps/g-4.png)
+     ![step-5](git-steps/g-5.png)
+ 
+     ![step-6](git-steps/g-6.png)
 
-   ![step-5](git-steps/g-5.png)
-
-   ![step-6](git-steps/g-6.png)
-
-   ![step-7](git-steps/g-7.png)
+     ![step-7](git-steps/g-7.png)
 
    ![step-8](git-steps/g-8.png)
 
