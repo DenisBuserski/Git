@@ -4,9 +4,13 @@
 <details>
 <summary><h2>Install Git</h2></summary>
 <br>
-1. To install Git visit - https://git-scm.com/
-   
-2. Follow the below steps for the installation
+<li>
+   <ol>
+      To install Git visit - https://git-scm.com/
+   </ol>
+   <ol>
+      Follow the below steps for the installation
+   </ol>
    
    ![step-1](git-steps/g-1.png)
 
@@ -41,6 +45,7 @@
    ![step-16](git-steps/g-16.png)
 
    ![step-17](git-steps/g-17.png)
+</li>
 </details>
 
 ##
