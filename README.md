@@ -94,9 +94,10 @@ hey
    ```
    git add file-1.txt
    ```
+   ![5](git-commands/w-5.png)
 
-
-
-8.
+8. Lets check the status again
+   
+   ![6](git-commands/w-6.png)
 
 </details>
