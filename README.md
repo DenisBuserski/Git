@@ -1,11 +1,8 @@
 # How to use Git
 
 
-
-<details>
-<summary><h2></h2>Install Git</h2></summary>
+##Install Git
    
-<br>
 1. To install Git visit - https://git-scm.com/
 2. Follow the below steps for the installation
    ![step-1](git-steps/g-1.png)
@@ -41,7 +38,6 @@
    ![step-16](git-steps/g-16.png)
 
    ![step-17](git-steps/g-17.png)
-</details>
 
 ##
 
