@@ -73,6 +73,7 @@ hey
    git init
    ```
    This command created a Local Repository on your PC
+   
    ![2](git-commands/w-2.png)
 
 5. Create "file-1.txt" in the "test" folder 
