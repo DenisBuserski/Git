@@ -22,26 +22,25 @@
 
      ![step-7](git-steps/g-7.png)
 
-   ![step-8](git-steps/g-8.png)
+     ![step-8](git-steps/g-8.png)
 
-   ![step-9](git-steps/g-9.png)
+     ![step-9](git-steps/g-9.png)
 
-   ![step-10](git-steps/g-10.png)
+     ![step-10](git-steps/g-10.png)
 
-   ![step-11](git-steps/g-11.png)
+     ![step-11](git-steps/g-11.png)
 
-   ![step-12](git-steps/g-12.png)
+     ![step-12](git-steps/g-12.png)
 
-   ![step-13](git-steps/g-13.png)
+     ![step-13](git-steps/g-13.png)
 
-   ![step-14](git-steps/g-14.png)
+     ![step-14](git-steps/g-14.png)
 
-   ![step-15](git-steps/g-15.png)
+     ![step-15](git-steps/g-15.png)
 
-   ![step-16](git-steps/g-16.png)
-
-   ![step-17](git-steps/g-17.png)
-
+     ![step-16](git-steps/g-16.png)
+     
+     ![step-17](git-steps/g-17.png)
 </details>
 
 ##
