@@ -44,6 +44,8 @@
 
 ##
 
+<details>
+<summary><h2>Connect Git with GitHub</h2></summary>
+<br>
 
-## Connect Git with GitHub
-
+</details>
