@@ -72,7 +72,7 @@ hey
    ```
    git init
    ```
-   This command created a Local Repository on your PC
+   This command created a Local repository on your PC
    
    ![2](git-commands/w-2.png)
 
@@ -81,5 +81,11 @@ hey
    touch file-1.txt
    ```
    ![3](git-commands/w-3.png)
+
+6. Lets check the status of our Local repository
+   ```
+   git status
+   ```
+   ![4](git-commands/w-4.png)   
 
 </details>
