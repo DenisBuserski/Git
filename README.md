@@ -74,5 +74,10 @@ hey
    ```
    ![2](git-commands/w-2.png)
 
+5. Create "file-1.txt" in the "test" folder 
+   ```
+   touch file-1.txt
+   ```
+   ![3](git-commands/w-3.png)
 
 </details>
