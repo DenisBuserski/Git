@@ -69,11 +69,9 @@ hey
 4. Open the folder "test"
 
 5. In the Git console write the command
-```
-git init
-```
+   ```
+   git init
+   ```
 
-hey
-hey
-hey
+
 </details>
