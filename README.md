@@ -23,7 +23,9 @@ There are 2 types of Source-Control Systems
 | Distributed Source-Control System | Centralized Source-Control System |
 | --------------------------------- | --------------------------------- |
 | Git | SVN |
-
+| 2 types of repository | Only 1 repository (Remote repository) |
+| Remote - The main project from which the files are downloaded | Only 1 repository (Remote repository) |
+| Local - Everyone involved in this project has 2 repositories | No Local repository |
 
 
   
