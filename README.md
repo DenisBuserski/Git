@@ -212,5 +212,13 @@ hey
     ```
     ![19](git-commands/w-19.png)
 
-23. a
+23. Commit
+    ```
+    git commit -m "Deleted file-3.txt"
+    ```
+    ![20](git-commands/w-20.png)
+
+
+
+    
 </details>
