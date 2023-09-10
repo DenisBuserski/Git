@@ -153,5 +153,13 @@ hey
     ```
     git add file-1.txt
     ```
+    With this command we can add 1 file at a time, but what if we have multiple...
+
+14. Add 2 more files to our "test" folder
+    ```
+    touch file-2.txt
+    touch file-3.txt
+    ```
+    ![11](git-commands/w-11.png)
 
 </details>
