@@ -100,4 +100,17 @@ hey
    
    ![6](git-commands/w-6.png)
 
+9. Commit the changes
+   ```
+   git commit -m "Add text file"
+   ```
+   ```
+   git commit -m "[Message]"
+   ```
+
+   ![7](git-commands/w-7.png)
+
+
+11. 
+
 </details>
