@@ -13,6 +13,12 @@
 - Open source code - Everyone can see the code
 - GitHub - If you are not added as a collaborator, you cannot make pull requests
 
+| Git        | GitHub  | Git Bash |
+| ---------- | ------- | -------- |
+| Version control | Portal | Client we use to upload code to GitHub |
+| Methodology | | |
+
+
   
 
 
