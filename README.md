@@ -4,10 +4,6 @@
 <details>
 <summary><h2>Install Git</h2></summary>
 <br>
-
-```
-Before following the below commands you would need to set Git with your GitHub profile. You can check [here](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) how to do it.
-```
      
 1. To install Git visit - https://git-scm.com/
 2. Follow the below steps for the installation
@@ -52,6 +48,10 @@ Before following the below commands you would need to set Git with your GitHub p
 <details>
 <summary><h2>Git commands</h2></summary>
 <br>
+
+```
+Before following the below commands you would need to set Git with your GitHub profile. You can check [here](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) how to do it.
+```
 
 1. Create a folder on your Desktop named "test"
 
