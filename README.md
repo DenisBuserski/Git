@@ -168,4 +168,18 @@ hey
     ```
     ![12](git-commands/w-12.png)
 
+16. Add all files at once
+    ```
+    git add .
+    ```
+    ![13](git-commands/w-13.png)
+
+17. Check the status
+    ```
+    git status
+    ```
+    ![14](git-commands/w-14.png)
+
+18. a
+    
 </details>
