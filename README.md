@@ -9,7 +9,8 @@
 - Conflict - When 2 people work on the same code and correct the same line
 - Repository
 	- The code repository used in a project
-     - Project code    
+        - Project code    
+- Open source code - Everyone can see the code  
 
 
 
