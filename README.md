@@ -10,7 +10,11 @@
 - Repository
   - The code repository used in a project
   - Project code    
-- Open source code - Everyone can see the code  
+- Open source code - Everyone can see the code
+- GitHub - If you are not added as a collaborator, you cannot make pull requests
+
+  
+
 
 
 
