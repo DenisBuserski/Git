@@ -1,4 +1,4 @@
-# How to use Git
+![image](https://github.com/DenisBuserski/Git/assets/81383938/d6ebd719-c864-4e53-b859-5114f1b582cc)# How to use Git
 
 
 <details>
@@ -97,6 +97,9 @@ hey
    ![5](git-commands/w-5.png)
 
 8. Lets check the status again
+   ```
+   git status
+   ```
    
    ![6](git-commands/w-6.png)
 
@@ -109,8 +112,14 @@ hey
    ```
 
    ![7](git-commands/w-7.png)
+   
+   From the above message we can see that we have added a new commit call "Add text file" and we have changed 1 file(file-1.txt)
 
-
-11. 
+10. Check the status
+   ```
+   git status
+   ```
+   
+   ![8](git-commands/w-8.png)
 
 </details>
