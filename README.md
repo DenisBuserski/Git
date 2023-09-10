@@ -129,11 +129,18 @@ hey
     echo "Sofia" >> file-1.txt
     ```
 
-    ![9](git-commands/w-0.png)
+    ![9](git-commands/w-9.png)
 
 12. You can clear your console using
     ```
     clear
     ```
+
+13. After adding text to file-1.txt, check the status
+    ```
+    git status
+    ```
+
+    ![10](git-commands/w-10.png)
 
 </details>
