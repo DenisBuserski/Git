@@ -2,7 +2,18 @@
 
 ## Overview
 
-- Software Configuration Management(SCM) = Version Control(VS/VCS)![image](https://github.com/DenisBuserski/Git/assets/81383938/df651578-7321-42a7-8b51-87147100b54f)
+- Software Configuration Management(SCM) = Version Control(VS/VCS)
+- Software principle
+- When several programmers write code, the codes of which are then combined into 1 project. VC allows this to be more balanced and controls the whole process
+- Keeps history of the made changes
+- Conflict - When 2 people work on the same code and correct the same line
+- Repository
+	- The code repository used in a project
+     - Project code    
+
+
+
+
 
 
 
