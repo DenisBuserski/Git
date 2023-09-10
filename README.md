@@ -143,4 +143,15 @@ hey
 
     ![10](git-commands/w-10.png)
 
+    From the above message we can either prepare our changes for commit or discard the changes we have made.
+    If we want to restore the previous state of the file we have to use:
+    ```
+    git restore file-1.txt
+    ```
+
+    If we want to keep the changes we made and prepare them for commit we have to use:
+    ```
+    git add file-1.txt
+    ```
+
 </details>
