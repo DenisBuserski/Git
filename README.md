@@ -180,6 +180,12 @@ hey
     ```
     ![14](git-commands/w-14.png)
 
-18. a
+18. Commit the changes
+    ```
+    git commit -m "Added 2 new files and changed file-1.txt"
+    ```
+    ![15](git-commands/w-15.png)
+
+19. a
     
 </details>
