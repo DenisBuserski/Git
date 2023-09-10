@@ -218,6 +218,14 @@ hey
     ```
     ![20](git-commands/w-20.png)
 
+21. Check the history of our commits
+    ```
+    git log
+    ```
+    ![21](git-commands/w-21.png)
+
+21. a
+
 
 
     
