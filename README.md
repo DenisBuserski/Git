@@ -162,4 +162,10 @@ hey
     ```
     ![11](git-commands/w-11.png)
 
+15. Check the status
+    ```
+    git status
+    ```
+    ![12](git-commands/w-12.png)
+
 </details>
