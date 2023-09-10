@@ -5,6 +5,7 @@
 <summary><h2>Install Git</h2></summary>
 <br>
 
+
 Before following the below commands you would need to set Git with your GitHub profile. You can check [here](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) how to do it.
      
 1. To install Git visit - https://git-scm.com/
