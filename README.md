@@ -9,7 +9,6 @@
 2. Follow the below steps for the installation
 
      ![step-1](git-steps/g-1.png) 
-     
      ![step-2](git-steps/g-2.png)
 
      ![step-3](git-steps/g-3.png)
@@ -43,16 +42,6 @@
      ![step-17](git-steps/g-17.png)
 </details>
 
-##
-
-<details>
-<summary><h2>Connect Git with GitHub</h2></summary>
-<br>
-
-hey
-hey
-hey
-</details>
 
 ##
 
