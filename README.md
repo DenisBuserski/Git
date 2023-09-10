@@ -1,5 +1,10 @@
 # How to use Git
 
+## Overview
+
+- Software Configuration Management(SCM) = Version Control(VS/VCS)![image](https://github.com/DenisBuserski/Git/assets/81383938/df651578-7321-42a7-8b51-87147100b54f)
+
+
 
 <details>
 <summary><h2>Install Git</h2></summary>
