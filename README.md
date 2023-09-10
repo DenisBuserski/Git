@@ -205,6 +205,12 @@ hey
     ```
     ![18](git-commands/w-18.png)
 
-22. a
-    
+22. Prepare everything for commit and check the status
+    ```
+    git add .
+    git status
+    ```
+    ![19](git-commands/w-19.png)
+
+23. a
 </details>
