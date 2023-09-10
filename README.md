@@ -116,10 +116,10 @@ hey
    From the above message we can see that we have added a new commit call "Add text file" and we have changed 1 file(file-1.txt)
 
 10. Check the status
-   ```
-   git status
-   ```
-   
-   ![8](git-commands/w-8.png)
+    ```
+    git status
+    ```
+    
+    ![8](git-commands/w-8.png)
 
 </details>
