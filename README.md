@@ -19,13 +19,14 @@
 | Methodology | | |
 
 
+There are 2 types of Source-Control Systems 
+| Distributed Source-Control System | Centralized Source-Control System |
+| --------------------------------- | --------------------------------- |
+| Git | SVN |
+
+
+
   
-
-
-
-
-
-
 
 
 <details>
