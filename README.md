@@ -191,5 +191,20 @@ hey
     git status
     ```
     ![16](git-commands/w-16.png)
+
+20. Remove file-3.txt
+    ```
+    rm -i file-3.txt
+    ```
+    Since we are using "-i", we will be asked whether we want this file to be deleted. 
+    ![17](git-commands/w-17.png)
+
+21. Check the status
+    ```
+    git status
+    ```
+    ![18](git-commands/w-18.png)
+
+22. a
     
 </details>
