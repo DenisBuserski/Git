@@ -1,4 +1,4 @@
-![image](https://github.com/DenisBuserski/Git/assets/81383938/d6ebd719-c864-4e53-b859-5114f1b582cc)# How to use Git
+# How to use Git
 
 
 <details>
