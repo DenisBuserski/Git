@@ -122,4 +122,18 @@ hey
     
     ![8](git-commands/w-8.png)
 
+    When we see the above message, that means we are ready to the push the changes and add them to the Remove repository.
+
+11. Add some text to file-1.txt
+    ```
+    echo "Sofia" >> file-1.txt
+    ```
+
+    ![9](git-commands/w-0.png)
+
+12. You can clear your console using
+    ```
+    clear
+    ```
+
 </details>
