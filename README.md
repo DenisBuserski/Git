@@ -79,7 +79,7 @@ There are 2 types of Source-Control Systems
 ##
 
 <details>
-<summary><h2>Git commands</h2></summary>
+<summary><h2>Git commands(Windows)</h2></summary>
 <br>
 
 Before following the below commands you would need to set Git with your GitHub profile. You can check [here](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) how to do it.
@@ -316,4 +316,13 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     ![34](git-commands/w-34.png)
     
+</details>
+
+
+##
+
+<details>
+<summary><h2>How to use Git with Intellij</h2></summary>
+<br>
+
 </details>
