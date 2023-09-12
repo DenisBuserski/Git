@@ -317,8 +317,9 @@ Before following the below commands you would need to set Git with your GitHub p
     ![34](git-commands/w-34.png)
 
 27. a
+
     
-<kbd> ![0](git-commands/f-0.png) </kbd>
+<kbd> ![0](git-commands/f-0.jpg) </kbd>
     
 </details>
 
