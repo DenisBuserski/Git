@@ -294,7 +294,7 @@ Before following the below commands you would need to set Git with your GitHub p
 
 26. There was a change in file-2.txt, which was not done by us. In this case we would need to take those changes on our side.
 
-    Modify file-2.txt directly from GitHub. Follow bellow to se how:
+    Modify file-2.txt directly from GitHub. Follow bellow to see how:
 
     <kbd> ![30](git-commands/w-30.png) </kbd>
 
@@ -302,5 +302,18 @@ Before following the below commands you would need to set Git with your GitHub p
 
     <kbd> ![32](git-commands/w-32.png) </kbd>
 
+    After the file was changed we will pull those changes on our side:
+    ```
+    git pull
+    ```
+    This command takes the latest changes.
+    
+    ![33](git-commands/w-33.png)
+
+    Now when we have pulled the changes. You can check if file-2.txt is changed on our side:
+    ```
+    cat file-2.txt
+    ```
+    ![34](git-commands/w-34.png)
     
 </details>
