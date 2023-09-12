@@ -292,5 +292,15 @@ Before following the below commands you would need to set Git with your GitHub p
 
     <kbd> ![29](git-commands/w-29.png) </kbd>
 
+26. There was a change in file-2.txt, which was not done by us. In this case we would need to take those changes on our side.
+
+    Modify file-2.txt directly from GitHub. Follow bellow to se how:
+
+    <kbd> ![30](git-commands/w-30.png) </kbd>
+
+    <kbd> ![31](git-commands/w-31.png) </kbd>
+
+    <kbd> ![32](git-commands/w-32.png) </kbd>
+
     
 </details>
