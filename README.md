@@ -255,7 +255,7 @@ Before following the below commands you would need to set Git with your GitHub p
 
     Step 1
     
-    ![22](git-commands/w-22.png)
+    <kbd> ![22](git-commands/w-22.png) </kbd>
 
     Step 2
     
