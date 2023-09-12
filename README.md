@@ -326,3 +326,13 @@ Before following the below commands you would need to set Git with your GitHub p
 <br>
 
 </details>
+
+
+##
+
+<details>
+<summary><h2>How to use GitHub Desktop</h2></summary>
+<br>
+
+</details>
+
