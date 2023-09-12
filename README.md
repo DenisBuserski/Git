@@ -315,6 +315,10 @@ Before following the below commands you would need to set Git with your GitHub p
     cat file-2.txt
     ```
     ![34](git-commands/w-34.png)
+
+27. a
+    
+<kbd> ![0](git-commands/f-0.png) </kbd>
     
 </details>
 
