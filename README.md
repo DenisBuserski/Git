@@ -250,6 +250,7 @@ Before following the below commands you would need to set Git with your GitHub p
     ![21](git-commands/w-21.png)
 
 25. Connect our Local repository with the one in GitHub
+    
     We need a repository in our GitHub. To create one follow the steps below:
 
     ![22](git-commands/w-22.png)
@@ -258,6 +259,9 @@ Before following the below commands you would need to set Git with your GitHub p
 
     ![24](git-commands/w-24.png)
 
+    ![25](git-commands/w-25.png)
+
+    I have created this [one](https://github.com/DenisBuserski/test)
 
 
     
