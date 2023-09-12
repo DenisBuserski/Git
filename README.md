@@ -334,5 +334,7 @@ Before following the below commands you would need to set Git with your GitHub p
 <summary><h2>How to use GitHub Desktop</h2></summary>
 <br>
 
+You can download GitHub Desktop from [here](https://desktop.github.com/)
+
 </details>
 
