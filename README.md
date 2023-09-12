@@ -253,6 +253,8 @@ Before following the below commands you would need to set Git with your GitHub p
     
     We need a repository in our GitHub. To create one follow the steps below:
 
+    <img src="git-commands/w-22.png" alt="22" style="border: 3px solid red" />
+
     Step 1
     
     <kbd> ![22](git-commands/w-22.png) </kbd>
