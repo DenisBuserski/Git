@@ -278,9 +278,19 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     git remote add origin https://github.com/DenisBuserski/test
     ```
+    ![26](git-commands/w-26.png)
+    
+    After that run:
+    ```
+    git push --set-upstream origin master
+    ```
+    ![27](git-commands/w-27.png)
 
-    ![26](git-commands/w-26.png) 
+    Now we will see changes in our repository on GitHub
 
+    <kbd> ![28](git-commands/w-28.png) </kbd>
+
+    <kbd> ![29](git-commands/w-29.png) </kbd>
 
     
 </details>
