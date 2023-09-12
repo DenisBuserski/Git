@@ -254,16 +254,21 @@ Before following the below commands you would need to set Git with your GitHub p
     We need a repository in our GitHub. To create one follow the steps below:
 
     Step 1
+    
     ![22](git-commands/w-22.png)
 
     Step 2
+    
     ![23](git-commands/w-23.png)
 
     Step 3
+    
     ![24](git-commands/w-24.png)
 
     Step 4
+    
     ![25](git-commands/w-25.png)
+
 
     I have created this [one](https://github.com/DenisBuserski/test).
 
