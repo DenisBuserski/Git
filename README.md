@@ -269,8 +269,17 @@ Before following the below commands you would need to set Git with your GitHub p
     
     <kbd> ![25](git-commands/w-25.png) </kbd>
 
-
     I have created this [one](https://github.com/DenisBuserski/test).
+
+    Copy the URL of the repository and use the following command
+    ```
+    git remote add origin [URL]
+    ```
+    ```
+    git remote add origin https://github.com/DenisBuserski/test
+    ```
+
+    ![26](git-commands/w-26.png) 
 
 
     
