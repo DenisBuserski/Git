@@ -1,4 +1,4 @@
-# How to use Git
+![image](https://github.com/DenisBuserski/Git/assets/81383938/03a1f38b-a4e1-46c0-9b7b-c6bf3658aa63)# How to use Git
 
 ## Overview
 
@@ -243,13 +243,20 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     ![20](git-commands/w-20.png)
 
-21. Check the history of our commits
+24. Check the history of our commits
     ```
     git log
     ```
     ![21](git-commands/w-21.png)
 
-21. a
+25. Connect our Local repository with the one in GitHub
+    We need a repository in our GitHub. To create one follow the steps below:
+
+    ![22](git-commands/w-22.png)
+
+    ![23](git-commands/w-23.png)
+
+    ![24](git-commands/w-24.png)
 
 
 
