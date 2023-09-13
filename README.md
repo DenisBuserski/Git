@@ -255,15 +255,15 @@ Before following the below commands you would need to set Git with your GitHub p
 
     Step 1
     
-    <kbd> ![22](git-commands/w-22.png) </kbd>
+    <kbd> ![25-1](git-commands/gc-25-1.png) </kbd>
 
     Step 2
     
-    <kbd> ![23](git-commands/w-23.png) </kbd>
+    <kbd> ![25-2](git-commands/gc-25-2.png) </kbd>
 
     Step 3
 
-    <kbd> ![25](git-commands/w-25.png) </kbd>
+    <kbd> ![25-3](git-commands/gc-25-3.png) </kbd>
 
     I have created this [one](https://github.com/DenisBuserski/test).
 
@@ -274,27 +274,31 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     git remote add origin https://github.com/DenisBuserski/test
     ```
-    ![26](git-commands/w-26.png)
+    ![25-4](git-commands/gc-25-4.png)
 
     We need to move to our main branch
     ```
     git checkout -b main
     ```
+    ![25-5](git-commands/gc-25-5.png)
 
     After that we need to fetch the data from it
     ```
     git fetch origin main
     ```
+    ![25-6](git-commands/gc-25-6.png)
 
     Rebase
     ```
     git rebase origin/main
     ```
+    ![25-7](git-commands/gc-25-7.png)
 
     Push our changes
     ```
-    git oush -u origin main
+    git push -u origin main
     ```
+    ![25-8](git-commands/gc-25-8.png)
 
 27. There was a change in file-2.txt, which was not done by us. In this case we would need to take those changes on our side.
 
