@@ -1,5 +1,7 @@
 # How to use Git
 
+![git-logo](1.png)
+
 ## Overview
 
 - Software Configuration Management(SCM) = Version Control(VS/VCS)
