@@ -89,29 +89,29 @@ Before following the below commands you would need to set Git with your GitHub p
 
 2. Right click on it and select "Git Bash Here"
 
-   ![1](git-commands/w-1.png)
+   ![gc-2](git-commands/gc-2.png)
 
-4. Open the folder "test"
+3. Open the folder "test"
 
-5. In the Git console write the command
+4. In the Git console write the command
    ```
    git init
    ```
    This command creates a Local repository on your PC
    
-   ![2](git-commands/w-2.png)
+   ![gc-4](git-commands/gc-4.png)
 
 5. Create "file-1.txt" in the "test" folder 
    ```
    touch file-1.txt
    ```
-   ![3](git-commands/w-3.png)
+   ![gc-5](git-commands/gc-5.png)
 
 6. Check the status of our Local repository
    ```
    git status
    ```
-   ![4](git-commands/w-4.png)
+   ![gc-6](git-commands/gc-6.png)
 
    From the result we got, it can be seen that we don't have any commits and we have 1 untracked file.
 
@@ -119,14 +119,14 @@ Before following the below commands you would need to set Git with your GitHub p
    ```
    git add file-1.txt
    ```
-   ![5](git-commands/w-5.png)
+   ![gc-7](git-commands/gc-7.png)
 
 8. Check the status 
    ```
    git status
    ```
    
-   ![6](git-commands/w-6.png)
+   ![gc-8](git-commands/gc-8.png)
 
 9. Commit the changes
    ```
@@ -136,7 +136,7 @@ Before following the below commands you would need to set Git with your GitHub p
    git commit -m "[Message]"
    ```
 
-   ![7](git-commands/w-7.png)
+   ![gc-9](git-commands/gc-9.png)
    
    From the above message we can see that we have added a new commit with a message "Add text file" and we have changed 1 file(file-1.txt)
 
@@ -145,7 +145,7 @@ Before following the below commands you would need to set Git with your GitHub p
     git status
     ```
     
-    ![8](git-commands/w-8.png)
+    ![gc-10](git-commands/gc-10.png)
 
     When we see the above message, that means we are ready to the push the changes and add them to the Remove repository.
 
@@ -154,7 +154,7 @@ Before following the below commands you would need to set Git with your GitHub p
     echo "Sofia" >> file-1.txt
     ```
 
-    ![9](git-commands/w-9.png)
+    ![gc-11](git-commands/gc-11.png)
 
 12. You can clear your console using
     ```
@@ -166,7 +166,7 @@ Before following the below commands you would need to set Git with your GitHub p
     git status
     ```
 
-    ![10](git-commands/w-10.png)
+    ![gc-13](git-commands/gc-13.png)
 
     From the above message we can either prepare our changes for commit or discard the changes we have made.
     If we want to restore the previous state of the file we have to use:
@@ -185,69 +185,69 @@ Before following the below commands you would need to set Git with your GitHub p
     touch file-2.txt
     touch file-3.txt
     ```
-    ![11](git-commands/w-11.png)
+    ![gc-14](git-commands/gc-14.png)
 
 15. Check the status
     ```
     git status
     ```
-    ![12](git-commands/w-12.png)
+    ![gc-15](git-commands/gc-15.png)
 
 16. Add all files at once
     ```
     git add .
     ```
-    ![13](git-commands/w-13.png)
+    ![gc-16](git-commands/gc-16.png)
 
 17. Check the status
     ```
     git status
     ```
-    ![14](git-commands/w-14.png)
+    ![gc-17](git-commands/gc-17.png)
 
 18. Commit the changes
     ```
     git commit -m "Added 2 new files and changed file-1.txt"
     ```
-    ![15](git-commands/w-15.png)
+    ![gc-18](git-commands/gc-18.png)
 
 19. Check the status
     ```
     git status
     ```
-    ![16](git-commands/w-16.png)
+    ![gc-19](git-commands/gc-19.png)
 
 20. Remove file-3.txt
     ```
     rm -i file-3.txt
     ```
     Since we are using "-i", we will be asked whether we want this file to be deleted. 
-    ![17](git-commands/w-17.png)
+    ![gc-20](git-commands/gc-20.png)
 
 21. Check the status
     ```
     git status
     ```
-    ![18](git-commands/w-18.png)
+    ![gc-21](git-commands/gc-21.png)
 
 22. Prepare everything for commit and check the status
     ```
     git add .
     git status
     ```
-    ![19](git-commands/w-19.png)
+    ![gc-22](git-commands/gc-22.png)
 
 23. Commit
     ```
     git commit -m "Deleted file-3.txt"
     ```
-    ![20](git-commands/w-20.png)
+    ![gc-23](git-commands/gc-23.png)
 
 24. Check the history of our commits
     ```
     git log
     ```
-    ![21](git-commands/w-21.png)
+    ![gc-24](git-commands/gc-24.png)
 
 25. Connect our Local repository with the one in GitHub
     
@@ -302,15 +302,15 @@ Before following the below commands you would need to set Git with your GitHub p
 
     After that you will see "file-1.txt" and "file-2.txt" in your GitHub repository.
 
-27. There was a change in file-2.txt, which was not done by us. In this case we would need to take those changes on our side.
+26. There was a change in file-2.txt, which was not done by us. In this case we would need to take those changes on our side.
 
     Modify file-2.txt directly from GitHub. Follow bellow to see how:
 
-    <kbd> ![30](git-commands/w-30.png) </kbd>
+    <kbd> ![gc-26-1](git-commands/gc-26-1.png) </kbd>
 
-    <kbd> ![31](git-commands/w-31.png) </kbd>
+    <kbd> ![gc-26-2](git-commands/gc-26-2.png) </kbd>
 
-    <kbd> ![32](git-commands/w-32.png) </kbd>
+    <kbd> ![gc-26-3](git-commands/gc-26-3.png) </kbd>
 
     After the file was changed we will pull those changes on our side:
     ```
@@ -318,13 +318,13 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     This command takes the latest changes.
     
-    ![33](git-commands/w-33.png)
+    ![gc-26-4](git-commands/gc-26-4.png)
 
     Now when we have pulled the changes. You can check if file-2.txt is changed on our side:
     ```
     cat file-2.txt
     ```
-    ![34](git-commands/w-34.png)
+    ![gc-26-5](git-commands/gc-26-5.png)
 
 28. a
 
