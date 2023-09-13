@@ -342,6 +342,22 @@ You acan check here a grafical explanation of most of the commands we used.
 <summary><h2>How to use Git with Intellij</h2></summary>
 <br>
 
+<details>
+<summary><h3>Create new project</h3></summary>
+<br>
+
+aaa
+
+</details>
+
+<details>
+<summary><h3>Clone exsisting project</h3></summary>
+<br>
+
+  aaa
+
+</details>
+
 </details>
 
 
