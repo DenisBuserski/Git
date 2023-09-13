@@ -113,7 +113,7 @@ Before following the below commands you would need to set Git with your GitHub p
    ```
    ![4](git-commands/w-4.png)
 
-   From the result we got, it can be seen that we don't have any commits and we have 1 untracked files.
+   From the result we got, it can be seen that we don't have any commits and we have 1 untracked file.
 
 7. As mentioned in the result we got from the previous point we need to use:
    ```
@@ -180,7 +180,7 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     With this command we can add 1 file at a time, but what if we have multiple... 
 
-14. Add 2 more files to our "test" folder
+14. Add 2 more files to the "test" folder
     ```
     touch file-2.txt
     touch file-3.txt
@@ -300,6 +300,8 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     ![25-8](git-commands/gc-25-8.png)
 
+    After that you will see "file-1.txt" and "file-2.txt" in your GitHub repository.
+
 27. There was a change in file-2.txt, which was not done by us. In this case we would need to take those changes on our side.
 
     Modify file-2.txt directly from GitHub. Follow bellow to see how:
@@ -326,7 +328,8 @@ Before following the below commands you would need to set Git with your GitHub p
 
 28. a
 
-    
+You acan check here a grafical explanation of most of the commands we used.
+
 <kbd> ![0](git-commands/f-0.jpg) </kbd>
     
 </details>
