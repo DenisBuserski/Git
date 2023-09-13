@@ -97,7 +97,7 @@ Before following the below commands you would need to set Git with your GitHub p
    ```
    git init
    ```
-   This command created a Local repository on your PC
+   This command creates a Local repository on your PC
    
    ![2](git-commands/w-2.png)
 
@@ -107,7 +107,7 @@ Before following the below commands you would need to set Git with your GitHub p
    ```
    ![3](git-commands/w-3.png)
 
-6. Lets check the status of our Local repository
+6. Check the status of our Local repository
    ```
    git status
    ```
@@ -121,7 +121,7 @@ Before following the below commands you would need to set Git with your GitHub p
    ```
    ![5](git-commands/w-5.png)
 
-8. Lets check the status again
+8. Check the status 
    ```
    git status
    ```
@@ -138,7 +138,7 @@ Before following the below commands you would need to set Git with your GitHub p
 
    ![7](git-commands/w-7.png)
    
-   From the above message we can see that we have added a new commit call "Add text file" and we have changed 1 file(file-1.txt)
+   From the above message we can see that we have added a new commit with a message "Add text file" and we have changed 1 file(file-1.txt)
 
 10. Check the status
     ```
@@ -178,7 +178,7 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     git add file-1.txt
     ```
-    With this command we can add 1 file at a time, but what if we have multiple...
+    With this command we can add 1 file at a time, but what if we have multiple... 
 
 14. Add 2 more files to our "test" folder
     ```
@@ -262,11 +262,7 @@ Before following the below commands you would need to set Git with your GitHub p
     <kbd> ![23](git-commands/w-23.png) </kbd>
 
     Step 3
-    
-    <kbd> ![24](git-commands/w-24.png) </kbd>
 
-    Step 4
-    
     <kbd> ![25](git-commands/w-25.png) </kbd>
 
     I have created this [one](https://github.com/DenisBuserski/test).
@@ -279,20 +275,28 @@ Before following the below commands you would need to set Git with your GitHub p
     git remote add origin https://github.com/DenisBuserski/test
     ```
     ![26](git-commands/w-26.png)
-    
-    After that run:
+
+    We need to move to our main branch
     ```
-    git push --set-upstream origin master
+    git checkout -b main
     ```
-    ![27](git-commands/w-27.png)
 
-    Now we will see changes in our repository on GitHub
+    After that we need to fetch the data from it
+    ```
+    git fetch origin main
+    ```
 
-    <kbd> ![28](git-commands/w-28.png) </kbd>
+    Rebase
+    ```
+    git rebase origin/main
+    ```
 
-    <kbd> ![29](git-commands/w-29.png) </kbd>
+    Push our changes
+    ```
+    git oush -u origin main
+    ```
 
-26. There was a change in file-2.txt, which was not done by us. In this case we would need to take those changes on our side.
+27. There was a change in file-2.txt, which was not done by us. In this case we would need to take those changes on our side.
 
     Modify file-2.txt directly from GitHub. Follow bellow to see how:
 
@@ -316,7 +320,7 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     ![34](git-commands/w-34.png)
 
-27. a
+28. a
 
     
 <kbd> ![0](git-commands/f-0.jpg) </kbd>
