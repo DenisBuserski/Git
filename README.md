@@ -1,6 +1,6 @@
 # How to use Git
 
-![git-logo](1.png)
+![git-logo](git-logo.jpg)
 
 ## Overview
 
