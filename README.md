@@ -147,7 +147,7 @@ Before following the below commands you would need to set Git with your GitHub p
     
     ![gc-10](git-commands/gc-10.png)
 
-    When we see the above message, that means we are ready to the push the changes and add them to the Remove repository.
+    When we see the above message, that means we are ready to the push the changes and add them to the Remote repository.
 
 11. Add some text to file-1.txt
     ```
