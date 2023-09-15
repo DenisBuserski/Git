@@ -369,5 +369,21 @@ aaa
 
 You can download GitHub Desktop from [here](https://desktop.github.com/)
 
+<details>
+<summary><h3>Create new project</h3></summary>
+<br>
+
+aaa
+
+</details>
+
+<details>
+<summary><h3>Clone exsisting project</h3></summary>
+<br>
+
+  aaa
+
+</details>
+
 </details>
 
