@@ -88,7 +88,7 @@ Before following the below commands you would need to set Git with your GitHub p
 
 1. Create a folder on your Desktop named "test"
 
-2. Right click on it and select "Git Bash Here"
+2. Right click on it and select "Open Git Bash here"
 
    ![gc-2](git-commands/gc-2.png)
 
@@ -244,7 +244,7 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     ![gc-23](git-commands/gc-23.png)
 
-24. Check the history of our commits
+24. Check the history of your commits
     ```
     git log
     ```
@@ -327,7 +327,10 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     ![gc-26-5](git-commands/gc-26-5.png)
 
-28. a
+27. a
+
+// git clone and git fetch
+
 
 You acan check here a grafical explanation of most of the commands we used.
 
