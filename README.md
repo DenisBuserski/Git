@@ -32,8 +32,6 @@ There are 2 types of Source-Control Systems
 
 
 
-  
-
 
 <details>
 <summary><h2>Install Git</h2></summary>
