@@ -364,8 +364,7 @@ Before following the below commands you would need to set Git with your GitHub p
 
 
 
-
-You acan check here a grafical explanation of most of the commands we used.
+<h4> You acan check here a grafical explanation of most of the commands we used. </h4>
 
 <kbd> ![0](git-commands/git-simple-workflow.png) </kbd>
     
@@ -416,40 +415,16 @@ We don't have this project on our PC...
 
 ![p-13](git-with-intellij/p-13.png) 
 
-
-
-
-
-
-
-
-
 </details>
 
 
 ##
 
 <details>
-<summary><h2>How to use GitHub Desktop</h2></summary>
+<summary><h2>How to use GitHub Desktop (In progress)</h2></summary>
 <br>
 
 You can download GitHub Desktop from [here](https://desktop.github.com/)
-
-<details>
-<summary><h3>Create new project</h3></summary>
-<br>
-
-aaa
-
-</details>
-
-<details>
-<summary><h3>Clone exsisting project</h3></summary>
-<br>
-
-  aaa
-
-</details>
 
 </details>
 
