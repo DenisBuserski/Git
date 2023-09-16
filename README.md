@@ -353,8 +353,12 @@ Before following the below commands you would need to set Git with your GitHub p
     ![gc-27-4](git-commands/gc-27-4.png)
 
 28. What if we don't have the repository on our machine?
+    Create a new folder on you Desktop named "Projects", right click on it "Open Git Bash Here".
     ```
-    git clone
+    git clone [URL]
+    ```
+    ```
+    git clone https://github.com/DenisBuserski/test
     ```
     ![gc-28](git-commands/gc-28.png)
 
