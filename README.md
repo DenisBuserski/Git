@@ -31,11 +31,6 @@ There are 2 types of Source-Control Systems
 
 
 
-
-
-
-
-
 <details>
 <summary><h2>Install Git</h2></summary>
 <br>
@@ -99,7 +94,7 @@ Before following the below commands you would need to set Git with your GitHub p
    ```
    git init
    ```
-   This command creates a Local repository on your PC
+   This command creates a Local repository on your PC.
    
    ![gc-4](git-commands/gc-4.png)
 
@@ -109,15 +104,15 @@ Before following the below commands you would need to set Git with your GitHub p
    ```
    ![gc-5](git-commands/gc-5.png)
 
-6. Check the status of our Local repository
+6. Check the status of your Local repository
    ```
    git status
    ```
    ![gc-6](git-commands/gc-6.png)
 
-   From the result we got, it can be seen that we don't have any commits and we have 1 untracked file.
+   From the result you got, it can be seen that you don't have any commits and have 1 untracked file.
 
-7. As mentioned in the result we got from the previous point we need to use:
+7. As mentioned in the result you got from the previous point you need to use:
    ```
    git add file-1.txt
    ```
@@ -127,7 +122,6 @@ Before following the below commands you would need to set Git with your GitHub p
    ```
    git status
    ```
-   
    ![gc-8](git-commands/gc-8.png)
 
 9. Commit the changes
@@ -137,25 +131,22 @@ Before following the below commands you would need to set Git with your GitHub p
    ```
    git commit -m "[Message]"
    ```
-
    ![gc-9](git-commands/gc-9.png)
    
-   From the above message we can see that we have added a new commit with a message "Add text file" and we have changed 1 file(file-1.txt)
+   From the above message you can see that you have added a new commit with a message "Add text file" and you have changed 1 file(file-1.txt).
 
 10. Check the status
     ```
     git status
-    ```
-    
+    ```   
     ![gc-10](git-commands/gc-10.png)
 
-    When we see the above message, that means we are ready to the push the changes and add them to the Remote repository.
+    When you see the above message, that means you are ready to the push the changes and add them to the Remote repository.
 
 11. Add some text to file-1.txt
     ```
     echo "Sofia" >> file-1.txt
     ```
-
     ![gc-11](git-commands/gc-11.png)
 
 12. You can clear your console using
@@ -167,20 +158,19 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     git status
     ```
-
     ![gc-13](git-commands/gc-13.png)
 
-    From the above message we can either prepare our changes for commit or discard the changes we have made.
-    If we want to restore the previous state of the file we have to use:
+    From the above message you can either prepare your changes for commit or discard the changes you have made.
+    If you want to restore the previous state of the file you have to use:
     ```
     git restore file-1.txt
     ```
 
-    If we want to keep the changes we made and prepare them for commit we have to use:
+    If you want to keep the changes you made and prepare them for commit you have to use:
     ```
     git add file-1.txt
     ```
-    With this command we can add 1 file at a time, but what if we have multiple... 
+    With this command you can add 1 file at a time, but what if you have multiple... 
 
 14. Add 2 more files to the "test" folder
     ```
@@ -223,7 +213,7 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     rm -i file-3.txt
     ```
-    Since we are using "-i", we will be asked whether we want this file to be deleted. 
+    Since you are using "-i", you will be asked whether you want this file to be deleted. 
     ![gc-20](git-commands/gc-20.png)
 
 21. Check the status
@@ -251,9 +241,9 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     ![gc-24](git-commands/gc-24.png)
 
-25. Connect our Local repository with the one in GitHub
+25. Connect your Local repository with the one in GitHub
     
-    We need a repository in our GitHub. To create one follow the steps below:
+    You need a repository in your GitHub. To create one follow the steps below:
 
     Step 1
     
@@ -267,9 +257,7 @@ Before following the below commands you would need to set Git with your GitHub p
 
     <kbd> ![25-3](git-commands/gc-25-3.png) </kbd>
 
-    I have created this [one](https://github.com/DenisBuserski/test).
-
-    Copy the URL of the repository and use the following command
+    Copy the URL of the repository and use the following command:
     ```
     git remote add origin [URL]
     ```
@@ -278,25 +266,25 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     ![25-4](git-commands/gc-25-4.png)
 
-    We need to move to our main branch
+    Move to your main branch:
     ```
     git checkout -b main
     ```
     ![25-5](git-commands/gc-25-5.png)
 
-    After that we need to fetch the data from it
+    Fetch the data from it:
     ```
     git fetch origin main
     ```
     ![25-6](git-commands/gc-25-6.png)
 
-    Rebase
+    Rebase:
     ```
     git rebase origin/main
     ```
     ![25-7](git-commands/gc-25-7.png)
 
-    Push our changes
+    Push your changes:
     ```
     git push -u origin main
     ```
@@ -304,7 +292,7 @@ Before following the below commands you would need to set Git with your GitHub p
 
     After that you will see "file-1.txt" and "file-2.txt" in your GitHub repository.
 
-26. There was a change in file-2.txt, which was not done by us. In this case we would need to take those changes on our side.
+26. There was a change in file-2.txt, which was not done by you. In this case you would need to take those changes on your side.
 
     Modify file-2.txt directly from GitHub. Follow bellow to see how:
 
@@ -314,7 +302,7 @@ Before following the below commands you would need to set Git with your GitHub p
 
     <kbd> ![gc-26-3](git-commands/gc-26-3.png) </kbd>
 
-    After the file was changed we will pull those changes on our side:
+    After the file was changed you will pull those changes on your side:
     ```
     git pull
     ```
@@ -322,17 +310,17 @@ Before following the below commands you would need to set Git with your GitHub p
     
     ![gc-26-4](git-commands/gc-26-4.png)
 
-    Now when we have pulled the changes. You can check if file-2.txt is changed on our side:
+    Now when you have pulled the changes. You can check if file-2.txt is changed on your side:
     ```
     cat file-2.txt
     ```
     ![gc-26-5](git-commands/gc-26-5.png)
 
-27. Modify file-2.txt from GitHub and we will use 
+27. Modify file-2.txt from GitHub and use: 
     ```
     git fetch
     ```
-    so we can see what the difference between "pull" and "fetch" is.
+    Now you wil see what the difference between "pull" and "fetch" is.
 
     ![gc-27-1](git-commands/gc-27-1.png)
 
@@ -341,7 +329,7 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     ![gc-27-2](git-commands/gc-27-2.png)
 
-    We can see what changes were made to the file, before we pull those changes on our Local repository
+    You can see what changes were made to the file, before you pull those changes on your Local repository.
 
     ```
     git pull
@@ -353,8 +341,8 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     ![gc-27-4](git-commands/gc-27-4.png)
 
-28. What if we don't have the repository on our machine?
-    Create a new folder on you Desktop named "Projects", right click on it "Open Git Bash Here".
+28. What if you don't have the repository on your machine?
+    Create a new folder on your Desktop named "Projects", right click on it "Open Git Bash here".
     ```
     git clone [URL]
     ```
@@ -392,7 +380,7 @@ Select "Terminal"
 
 ![p-4](git-with-intellij/p-4.png) 
 
-Following we already know the Git commands:
+Following you already know the Git commands:
 
 ![p-5](git-with-intellij/p-5.png) 
 
@@ -406,7 +394,7 @@ Someone made some changes... Lets see them...
 
 ![p-9](git-with-intellij/p-9.png) 
 
-We don't have this project on our PC...
+You don't have this project on our PC...
 
 <kbd> ![p-10](git-with-intellij/p-10.png) </kbd>
 
