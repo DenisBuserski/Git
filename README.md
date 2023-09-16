@@ -333,7 +333,31 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     so we can see what the difference between "pull" and "fetch" is.
 
-// git clone and git fetch
+    ![gc-27-1](git-commands/gc-27-1.png)
+
+    ```
+    git diff main..origin/main
+    ```
+    ![gc-27-2](git-commands/gc-27-2.png)
+
+    We can see what changes were made to the file, before we pull those changes on our Local repository
+
+    ```
+    git pull
+    ```
+    ![gc-27-3](git-commands/gc-27-3.png)
+
+    ```
+    git status
+    ```
+    ![gc-27-4](git-commands/gc-27-4.png)
+
+28. What if we don't have the repository on our machine?
+    ```
+    git clone
+    ```
+    ![gc-28](git-commands/gc-28.png)
+
 
 
 You acan check here a grafical explanation of most of the commands we used.
