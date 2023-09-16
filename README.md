@@ -378,21 +378,47 @@ You acan check here a grafical explanation of most of the commands we used.
 <summary><h2>How to use Git with Intellij</h2></summary>
 <br>
 
-<details>
-<summary><h3>Create new project</h3></summary>
-<br>
+Create a new repository on GitHub
+<kbd> ![p-1](git-with-intellij/p-1.png) </kbd>
 
-aaa
+Create a new project in IntelliJ
+![p-2](git-with-intellij/p-2.png) 
 
-</details>
+Select "Terminal"
+![p-3](git-with-intellij/p-3.png) 
 
-<details>
-<summary><h3>Clone exsisting project</h3></summary>
-<br>
+![p-4](git-with-intellij/p-4.png) 
 
-  aaa
+Following we already know the Git commands:
+![p-5](git-with-intellij/p-5.png) 
 
-</details>
+![p-6](git-with-intellij/p-6.png) 
+
+![p-7](git-with-intellij/p-7.png) 
+
+![p-8](git-with-intellij/p-8.png) 
+
+Someone made some changes... Lets see them... 
+
+![p-9](git-with-intellij/p-9.png) 
+
+We don't have this project on our PC...
+
+![p-10](git-with-intellij/p-10.png) 
+
+![p-11](git-with-intellij/p-11.png) 
+
+![p-12](git-with-intellij/p-12.png) 
+
+![p-13](git-with-intellij/p-13.png) 
+
+
+
+
+
+
+
+
 
 </details>
 
