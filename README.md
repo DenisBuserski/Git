@@ -417,3 +417,15 @@ You can download GitHub Desktop from [here](https://desktop.github.com/)
 
 </details>
 
+
+##
+
+<details>
+<summary><h2>How to use Git with Visual Studio Code (In progress)</h2></summary>
+<br>
+
+TEST
+
+</details>
+
+
