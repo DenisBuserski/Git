@@ -379,17 +379,21 @@ You acan check here a grafical explanation of most of the commands we used.
 <br>
 
 Create a new repository on GitHub
+
 <kbd> ![p-1](git-with-intellij/p-1.png) </kbd>
 
 Create a new project in IntelliJ
+
 ![p-2](git-with-intellij/p-2.png) 
 
 Select "Terminal"
+
 ![p-3](git-with-intellij/p-3.png) 
 
 ![p-4](git-with-intellij/p-4.png) 
 
 Following we already know the Git commands:
+
 ![p-5](git-with-intellij/p-5.png) 
 
 ![p-6](git-with-intellij/p-6.png) 
@@ -404,9 +408,9 @@ Someone made some changes... Lets see them...
 
 We don't have this project on our PC...
 
-![p-10](git-with-intellij/p-10.png) 
+<kbd> ![p-10](git-with-intellij/p-10.png) </kbd>
 
-![p-11](git-with-intellij/p-11.png) 
+<kbd> ![p-11](git-with-intellij/p-11.png) </kbd>
 
 ![p-12](git-with-intellij/p-12.png) 
 
