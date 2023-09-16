@@ -364,9 +364,10 @@ Before following the below commands you would need to set Git with your GitHub p
 
 
 
+
 You acan check here a grafical explanation of most of the commands we used.
 
-<kbd> ![0](git-commands/f-0.jpg) </kbd>
+<kbd> ![0](git-commands/git-simple-workflow.png) </kbd>
     
 </details>
 
