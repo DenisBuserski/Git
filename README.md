@@ -327,7 +327,11 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
     ![gc-26-5](git-commands/gc-26-5.png)
 
-27. a
+27. Modify file-2.txt from GitHub and we will use 
+    ```
+    git fetch
+    ```
+    so we can see what the difference between "pull" and "fetch" is.
 
 // git clone and git fetch
 
