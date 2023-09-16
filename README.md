@@ -353,7 +353,7 @@ Before following the below commands you would need to set Git with your GitHub p
 
 
 
-<h4> You acan check here a grafical explanation of most of the commands we used. </h4>
+<h4> You can check here a grafical explanation of most of the commands we used. </h4>
 
 <kbd> ![0](git-commands/git-simple-workflow.png) </kbd>
     
