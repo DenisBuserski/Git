@@ -21,6 +21,7 @@
 
 
 There are 2 types of Source-Control Systems 
+
 | Distributed Source-Control System | Centralized Source-Control System |
 | --------------------------------- | --------------------------------- |
 | Git | SVN |
@@ -31,215 +32,130 @@ There are 2 types of Source-Control Systems
 
 
 
-<details>
-<summary><h2>Install Git</h2></summary>
-<br>
-     
-1. To install Git visit - https://git-scm.com/
-2. Follow the below steps for the installation
 
-     ![step-1](git-steps/g-1.png) 
-     ![step-2](git-steps/g-2.png)
-
-     ![step-3](git-steps/g-3.png)
-
-     ![step-4](git-steps/g-4.png)
-
-     ![step-5](git-steps/g-5.png)
- 
-     ![step-6](git-steps/g-6.png)
-
-     ![step-7](git-steps/g-7.png)
-
-     ![step-8](git-steps/g-8.png)
-
-     ![step-9](git-steps/g-9.png)
-
-     ![step-10](git-steps/g-10.png)
-
-     ![step-11](git-steps/g-11.png)
-
-     ![step-12](git-steps/g-12.png)
-
-     ![step-13](git-steps/g-13.png)
-
-     ![step-14](git-steps/g-14.png)
-
-     ![step-15](git-steps/g-15.png)
-
-     ![step-16](git-steps/g-16.png)
-     
-     ![step-17](git-steps/g-17.png)
-   
-</details>
 
 
 ##
 
 <details>
-<summary><h2>Git commands(Windows)</h2></summary>
+<summary><h2>Git commands</h2></summary>
 <br>
 
 Before following the below commands you would need to set Git with your GitHub profile. You can check [here](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) how to do it.
 
-1. Create a folder on your Desktop named "test"
-
-2. Right click on it and select "Open Git Bash here"
-
-   ![gc-2](git-commands/gc-2.png)
-
-3. Open the folder "test"
-
-4. In the Git console write the command
+1. Create a folder on your Desktop named "test"<br>
+   Open `Git Bash` on your Desktop and create folder `test` with the `mkdir test` command.
+   ![step_1](git-commands/step_1.png)
+2. Move to the `test` folder
+   ```
+   cd test
+   ```
+   ![step_2](git-commands/step_2.png)
+3. In the Git console write the command
    ```
    git init
    ```
-   This command creates a Local repository on your PC.
-   
-   ![gc-4](git-commands/gc-4.png)
-
-5. Create "file-1.txt" in the "test" folder 
+   This command initializes a new, empty repository. Git creates a new `.git` directory in your project. Using the `ls -a` command we can see the mentioned directory.
+   ![step_3](git-commands/step_3.png)
+4. Use the `clear` command to clear the console
+5. Create `file-1.txt` in the `test` folder 
    ```
    touch file-1.txt
    ```
-   ![gc-5](git-commands/gc-5.png)
-
-6. Check the status of your Local repository
+   ![step_5](git-commands/step_5.png)
+6. Check the status of your Working directory
    ```
    git status
    ```
-   ![gc-6](git-commands/gc-6.png)
-
-   From the result you got, it can be seen that you don't have any commits and have 1 untracked file.
-
-7. As mentioned in the result you got from the previous point you need to use:
+   ![step_6](git-commands/step_6.png)
+   From the result, it can be seen that you don't have any commits and have 1 untracked file.
+7. Move the file to the Staging area
    ```
    git add file-1.txt
    ```
-   ![gc-7](git-commands/gc-7.png)
+8. Check the status
+   ![step_8](git-commands/step_8.png)
 
-8. Check the status 
+9. Commit the changes to you Local repository
    ```
-   git status
-   ```
-   ![gc-8](git-commands/gc-8.png)
-
-9. Commit the changes
-   ```
-   git commit -m "Add text file"
+   git commit -m"[Message]"
    ```
    ```
-   git commit -m "[Message]"
+   git commit -m"Created file-1.txt"
    ```
-   ![gc-9](git-commands/gc-9.png)
-   
-   From the above message you can see that you have added a new commit with a message "Add text file" and you have changed 1 file(file-1.txt).
-
+   ![step_9](git-commands/step_9.png)
 10. Check the status
-    ```
-    git status
-    ```   
-    ![gc-10](git-commands/gc-10.png)
-
+    ![step_10](git-commands/step_10.png)
     When you see the above message, that means you are ready to the push the changes and add them to the Remote repository.
-
 11. Add some text to file-1.txt
     ```
     echo "Sofia" >> file-1.txt
     ```
-    ![gc-11](git-commands/gc-11.png)
-
-12. You can clear your console using
-    ```
-    clear
-    ```
-
-13. After adding text to file-1.txt, check the status
-    ```
-    git status
-    ```
-    ![gc-13](git-commands/gc-13.png)
-
+12. Check the status
+    ![step_12](git-commands/step_12.png)
     From the above message you can either prepare your changes for commit or discard the changes you have made.
     If you want to restore the previous state of the file you have to use:
     ```
     git restore file-1.txt
     ```
-
     If you want to keep the changes you made and prepare them for commit you have to use:
     ```
     git add file-1.txt
     ```
-    With this command you can add 1 file at a time, but what if you have multiple... 
-
-14. Add 2 more files to the "test" folder
+    With this command you can add 1 file at a time, but what if you have multiple...
+13. Add 2 more files to the "test" folder
     ```
     touch file-2.txt
     touch file-3.txt
     ```
-    ![gc-14](git-commands/gc-14.png)
-
-15. Check the status
+14. Check the status
     ```
     git status
     ```
-    ![gc-15](git-commands/gc-15.png)
-
-16. Add all files at once
+    ![step_14](git-commands/step_14.png)
+15. Add all files at once
     ```
     git add .
     ```
-    ![gc-16](git-commands/gc-16.png)
-
-17. Check the status
+    ![step_15](git-commands/step_15.png)
+16. Check the status
+    ![step_16](git-commands/step_16.png)
+17. Commit the changes
     ```
-    git status
+    git commit -m"Added 2 new files and changed file-1.txt"
     ```
-    ![gc-17](git-commands/gc-17.png)
-
-18. Commit the changes
-    ```
-    git commit -m "Added 2 new files and changed file-1.txt"
-    ```
-    ![gc-18](git-commands/gc-18.png)
-
-19. Check the status
-    ```
-    git status
-    ```
-    ![gc-19](git-commands/gc-19.png)
-
-20. Remove file-3.txt
+18. Check the status
+    ![step_18](git-commands/step_18.png)
+19. Remove file-3.txt
     ```
     rm -i file-3.txt
     ```
-    Since you are using "-i", you will be asked whether you want this file to be deleted. 
-    ![gc-20](git-commands/gc-20.png)
-
-21. Check the status
-    ```
-    git status
-    ```
-    ![gc-21](git-commands/gc-21.png)
-
-22. Prepare everything for commit and check the status
+    Since you are using `-i`, you will be asked whether you want this file to be deleted. 
+    ![step_19](git-commands/step_19.png)
+20. Check the status
+    ![step_20](git-commands/step_20.png)
+21. Prepare everything for commit and check the status
     ```
     git add .
     git status
     ```
-    ![gc-22](git-commands/gc-22.png)
-
-23. Commit
+    ![step_21](git-commands/step_21.png)
+22. Commit
     ```
     git commit -m "Deleted file-3.txt"
     ```
-    ![gc-23](git-commands/gc-23.png)
-
-24. Check the history of your commits
+    ![step_22](git-commands/step_22.png)
+23. Check the history of your commits
     ```
     git log
     ```
-    ![gc-24](git-commands/gc-24.png)
+    ![step_23](git-commands/step_23.png)
+24. Connect your Local repository with the one in GitHub
+
+
+
+
+<br>
 
 25. Connect your Local repository with the one in GitHub
     
@@ -410,18 +326,7 @@ You don't have this project on our PC...
 ##
 
 <details>
-<summary><h2>How to use GitHub Desktop (In progress)</h2></summary>
-<br>
-
-You can download GitHub Desktop from [here](https://desktop.github.com/)
-
-</details>
-
-
-##
-
-<details>
-<summary><h2>How to use Git with Visual Studio Code (In progress)</h2></summary>
+<summary><h2>Additional information</h2></summary>
 <br>
 
 TEST
