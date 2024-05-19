@@ -1,8 +1,6 @@
 # How to use Git
 
-
 ## Overview
-
 - Software Configuration Management(SCM) = Version Control(VS/VCS)
 - Software principle
 - When several programmers write code, the codes of which are then combined into 1 project. VC allows this to be more balanced and controls the whole process
@@ -14,11 +12,9 @@
 - Open source code - Everyone can see the code
 - GitHub - If you are not added as a collaborator, you cannot make pull requests
 
-| Git        | GitHub  | Git Bash |
-| ---------- | ------- | -------- |
-| Version control | Portal | Client we use to upload code to GitHub |
-| Methodology | | |
-
+| Git                          | GitHub  | Git Bash |
+|------------------------------| ------- | -------- |
+| Version control; Methodology | Portal | Client we use to upload code to GitHub |
 
 There are 2 types of Source-Control Systems 
 
@@ -32,19 +28,16 @@ There are 2 types of Source-Control Systems
 
 
 
-
-
-
 ##
 
 <details>
-<summary><h2>Git commands</h2></summary>
+<summary><h2>Simple Git commands</h2></summary>
 <br>
 
 Before following the below commands you would need to set Git with your GitHub profile. You can check [here](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) how to do it.
 
-1. Create a folder on your Desktop named "test"<br>
-   Open `Git Bash` on your Desktop and create folder `test` with the `mkdir test` command.
+1. Create a folder on your Desktop named `test`<br>
+   Open `Git Bash` on your Desktop and create a folder `test` with the `mkdir test` command.
    ![step_1](git-commands/step_1.png)
 2. Move to the `test` folder
    ```
@@ -75,7 +68,6 @@ Before following the below commands you would need to set Git with your GitHub p
    ```
 8. Check the status
    ![step_8](git-commands/step_8.png)
-
 9. Commit the changes to you Local repository
    ```
    git commit -m"[Message]"
@@ -103,7 +95,7 @@ Before following the below commands you would need to set Git with your GitHub p
     git add file-1.txt
     ```
     With this command you can add 1 file at a time, but what if you have multiple...
-13. Add 2 more files to the "test" folder
+13. Add 2 more files to the `test` folder
     ```
     touch file-2.txt
     touch file-3.txt
@@ -142,7 +134,7 @@ Before following the below commands you would need to set Git with your GitHub p
     ![step_21](git-commands/step_21.png)
 22. Commit
     ```
-    git commit -m "Deleted file-3.txt"
+    git commit -m"Deleted file-3.txt"
     ```
     ![step_22](git-commands/step_22.png)
 23. Check the history of your commits
@@ -150,126 +142,58 @@ Before following the below commands you would need to set Git with your GitHub p
     git log
     ```
     ![step_23](git-commands/step_23.png)
-24. Connect your Local repository with the one in GitHub
-
-
-
-
-<br>
-
-25. Connect your Local repository with the one in GitHub
-    
-    You need a repository in your GitHub. To create one follow the steps below:
-
-    Step 1
-    
-    <kbd> ![25-1](git-commands/gc-25-1.png) </kbd>
-
-    Step 2
-    
-    <kbd> ![25-2](git-commands/gc-25-2.png) </kbd>
-
-    Step 3
-
-    <kbd> ![25-3](git-commands/gc-25-3.png) </kbd>
-
-    Copy the URL of the repository and use the following command:
+24. Use the below command to rename the current branch to `main`
+    ```
+    git branch -M main
+    ```
+    ![step_24](git-commands/step_24.png)
+25. Create a repository on GitHub and connect it to your Local repository <br> 
+    After you have created a repository on GitHub copy the below:
+    ![step_25](git-commands/step_25.png)
     ```
     git remote add origin [URL]
     ```
     ```
-    git remote add origin https://github.com/DenisBuserski/test
+    git remote add origin git@github.com:DenisBuserski/test.git
     ```
-    ![25-4](git-commands/gc-25-4.png)
-
-    Move to your main branch:
-    ```
-    git checkout -b main
-    ```
-    ![25-5](git-commands/gc-25-5.png)
-
-    Fetch the data from it:
-    ```
-    git fetch origin main
-    ```
-    ![25-6](git-commands/gc-25-6.png)
-
-    Rebase:
-    ```
-    git rebase origin/main
-    ```
-    ![25-7](git-commands/gc-25-7.png)
-
-    Push your changes:
+26. Push your changes:
     ```
     git push -u origin main
     ```
-    ![25-8](git-commands/gc-25-8.png)
-
-    After that you will see "file-1.txt" and "file-2.txt" in your GitHub repository.
-
-26. There was a change in file-2.txt, which was not done by you. In this case you would need to take those changes on your side.
-
-    Modify file-2.txt directly from GitHub. Follow bellow to see how:
-
-    <kbd> ![gc-26-1](git-commands/gc-26-1.png) </kbd>
-
-    <kbd> ![gc-26-2](git-commands/gc-26-2.png) </kbd>
-
-    <kbd> ![gc-26-3](git-commands/gc-26-3.png) </kbd>
-
-    After the file was changed you will pull those changes on your side:
-    ```
-    git pull
-    ```
-    This command takes the latest changes.
-    
-    ![gc-26-4](git-commands/gc-26-4.png)
-
-    Now when you have pulled the changes. You can check if file-2.txt is changed on your side:
-    ```
-    cat file-2.txt
-    ```
-    ![gc-26-5](git-commands/gc-26-5.png)
-
-27. Modify file-2.txt from GitHub and use: 
+    ![step_26](git-commands/step_26.png)
+    We can see the files in GitHub now.
+    ![step_26(1)](git-commands/step_26(1).png)
+27. Add `README.md` in your Remote repository
+    ![step_27](git-commands/step_27.png)
+    We don't have this `README.md` file in our Local repository, so let's get it.
     ```
     git fetch
     ```
-    Now you wil see what the difference between "pull" and "fetch" is.
-
-    ![gc-27-1](git-commands/gc-27-1.png)
-
+    
     ```
-    git diff main..origin/main
+    git merge
     ```
-    ![gc-27-2](git-commands/gc-27-2.png)
-
-    You can see what changes were made to the file, before you pull those changes on your Local repository.
+    
 
     ```
     git pull
     ```
-    ![gc-27-3](git-commands/gc-27-3.png)
 
     ```
-    git status
+    git merge
     ```
-    ![gc-27-4](git-commands/gc-27-4.png)
-
-28. What if you don't have the repository on your machine?
-    Create a new folder on your Desktop named "Projects", right click on it "Open Git Bash here".
+    
+     ```
+    git clone
     ```
-    git clone [URL]
-    ```
-    ```
-    git clone https://github.com/DenisBuserski/test
-    ```
-    ![gc-28](git-commands/gc-28.png)
 
 
 
-<h3> You can check here a grafical explanation of some of the commands we used. </h3>
+
+
+
+
+<h3> You can check here a graphical explanation of some of the commands we used. </h3>
 
 <kbd> ![0](git-commands/git-simple-workflow.png) </kbd>
     
@@ -279,57 +203,12 @@ Before following the below commands you would need to set Git with your GitHub p
 ##
 
 <details>
-<summary><h2>How to use Git with Intellij</h2></summary>
-<br>
-
-Create a new repository on GitHub
-
-<kbd> ![p-1](git-with-intellij/p-1.png) </kbd>
-
-Create a new project in IntelliJ
-
-![p-2](git-with-intellij/p-2.png) 
-
-Select "Terminal"
-
-![p-3](git-with-intellij/p-3.png) 
-
-![p-4](git-with-intellij/p-4.png) 
-
-Following you already know the Git commands:
-
-![p-5](git-with-intellij/p-5.png) 
-
-![p-6](git-with-intellij/p-6.png) 
-
-![p-7](git-with-intellij/p-7.png) 
-
-![p-8](git-with-intellij/p-8.png) 
-
-Someone made some changes... Lets see them... 
-
-![p-9](git-with-intellij/p-9.png) 
-
-You don't have this project on our PC...
-
-<kbd> ![p-10](git-with-intellij/p-10.png) </kbd>
-
-<kbd> ![p-11](git-with-intellij/p-11.png) </kbd>
-
-![p-12](git-with-intellij/p-12.png) 
-
-![p-13](git-with-intellij/p-13.png) 
-
-</details>
-
-
-##
-
-<details>
 <summary><h2>Additional information</h2></summary>
 <br>
 
-TEST
+[Fundamentals with C#, Java, JS & Python Jan 21 - Git and GitHub - Kiril Kirilov](https://www.youtube.com/watch?v=LaWZYYuOkeM&list=PLN_xGGp_EzEJvRKWLk0EIRI6sfT36-ACm&index=2)<br>
+[GitHub: The Right Way - Владимир Тасев](https://www.youtube.com/watch?v=kFuQ2f1qb_0&list=PLN_xGGp_EzEJvRKWLk0EIRI6sfT36-ACm&index=6&t=12s)
+
 
 </details>
 
