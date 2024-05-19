@@ -34,11 +34,18 @@ There are 2 types of Source-Control Systems
 <summary><h2>Simple Git commands</h2></summary>
 <br>
 
-Before following the below commands you would need to set Git with your GitHub profile. You can check [here](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) how to do it.
+Before following the below commands you would need to set Git with your GitHub profile and a SSH key. <br>
+For GitHub:
+- [GitHub docs](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) <br>
+
+For SSH key:
+- [GitHub docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) 
+- [🐱Generate a New SSH Key and Add it to your GitHub](https://www.youtube.com/watch?v=X40b9x9BFGo&list=PLN_xGGp_EzEJvRKWLk0EIRI6sfT36-ACm&index=3)
+
+<br>
 
 1. Create a folder on your Desktop named `test`<br>
    Open `Git Bash` on your Desktop and create a folder `test` with the `mkdir test` command.
-   ![step_1](git-commands/step_1.png)
 2. Move to the `test` folder
    ```
    cd test
@@ -188,11 +195,6 @@ Before following the below commands you would need to set Git with your GitHub p
     ```
 
 
-
-
-
-
-
 <h3> You can check here a graphical explanation of some of the commands we used. </h3>
 
 <kbd> ![0](git-commands/git-simple-workflow.png) </kbd>
@@ -206,9 +208,10 @@ Before following the below commands you would need to set Git with your GitHub p
 <summary><h2>Additional information</h2></summary>
 <br>
 
+[Git and GitHub Tutorial For Beginners | Full Course [2021] [NEW]](https://www.youtube.com/watch?v=3fUbBnN_H2c&list=PLN_xGGp_EzEJvRKWLk0EIRI6sfT36-ACm&index=2&t=3156s) <br>
+[Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE&list=PLN_xGGp_EzEJvRKWLk0EIRI6sfT36-ACm&index=2) <br>
 [Fundamentals with C#, Java, JS & Python Jan 21 - Git and GitHub - Kiril Kirilov](https://www.youtube.com/watch?v=LaWZYYuOkeM&list=PLN_xGGp_EzEJvRKWLk0EIRI6sfT36-ACm&index=2)<br>
 [GitHub: The Right Way - Владимир Тасев](https://www.youtube.com/watch?v=kFuQ2f1qb_0&list=PLN_xGGp_EzEJvRKWLk0EIRI6sfT36-ACm&index=6&t=12s)
-
 
 </details>
 
