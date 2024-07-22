@@ -72,7 +72,7 @@ For SSH key:
    ```
    ![step_7](git-commands/step_7.png) <br>
     When you see the above message, that means you are ready to the push the changes and add them to the Remote repository.
-8. Add some text to file-1.txt - `echo "Sofia" >> file-1.txt`
+8. Add some text to `file-1.txt` - `echo "Sofia" >> file-1.txt`
    ![step_8](git-commands/step_8.png) <br>
    From the above message you can either prepare your changes for commit or discard the changes you have made.
    
@@ -83,7 +83,7 @@ For SSH key:
     With this command you can add 1 file at a time, but what if you have multiple...
 9. Add 2 more files to the `test` folder
    ![step_9](git-commands/step_9.png)
-10. Add all files at once Move ALL the files to the Staging area
+10. Add ALL files at once to the Staging area
     ```
     git add .
     ```
@@ -94,7 +94,7 @@ For SSH key:
     ```
     ![step_11](git-commands/step_11.png)
     
-12. Remove file-3.txt
+12. Remove `file-3.txt`
     ```
     rm -i file-3.txt
     ```
