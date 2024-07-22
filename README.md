@@ -1,4 +1,6 @@
-# How to use Git
+# Git
+
+![git](git.jpg)
 
 ## Overview
 - Software Configuration Management(SCM) = Version Control(VS/VCS)
@@ -55,7 +57,7 @@ For SSH key:
    ```
    git status
    ```
-   ![step_5](git-commands/step_5.png)
+   ![step_5](git-commands/step_5.png) <br>
    From the result, it can be seen that you don't have any commits and have 1 untracked file.
 6. Move the file to the Staging area
    ```
@@ -68,10 +70,10 @@ For SSH key:
    
    git commit -m"Created file-1.txt"
    ```
-   ![step_7](git-commands/step_7.png)
+   ![step_7](git-commands/step_7.png) <br>
     When you see the above message, that means you are ready to the push the changes and add them to the Remote repository.
 8. Add some text to file-1.txt - `echo "Sofia" >> file-1.txt`
-   ![step_8](git-commands/step_8.png)
+   ![step_8](git-commands/step_8.png) <br>
    From the above message you can either prepare your changes for commit or discard the changes you have made.
    
    | Restore the previous state of the file | Keep the changes you made and prepare them for commit  |
@@ -129,11 +131,11 @@ For SSH key:
     ```
     git push -u origin main
     ```
-    ![step_18](git-commands/step_18.png)
+    ![step_18](git-commands/step_18.png) <br>
     We can see the files in GitHub now.
     ![step_18(1)](git-commands/step_18(1).png)
 19. Add `README.md` in your Remote repository
-    ![step_19](git-commands/step_19.png)
+    ![step_19](git-commands/step_19.png) <br>
     We don't have this `README.md` file in our Local repository, so let's get it.
     
     | `git fetch`                                                                                                                            | `git pull`                                                  | `git clone`                                                                  |
@@ -144,14 +146,29 @@ For SSH key:
 
 ## Branches
 
+| Command                                             | Description                        |
+|-----------------------------------------------------|------------------------------------|
+| `git branch`                                        | Show all branches                  |
+| `git branch [BRANCH_NAME]`                          | Create branch                      |
+| `git branch -m [BRANCH_NAME]`                       | Rename the current branch          |
+| `git branch -m [OLD_BRANCH_NAME] [NEW_BRANCH_NAME]` | Rename branch you are not on       |
+| `git branch -d [BRANCH_NAME]`                       | Delete branch                      |
+| `git switch [BRANCH_NAME]`                          | Switch branch                      |
+| `git checkout [BRANCH_NAME]`                        | Old way to switch branch           |
+| `git checkout -b [BRANCH_NAME]`                     | Create new branch adn switch to it |
+
+
 ## Additional information
 
 [Git and Github Essentials](https://app.amigoscode.com/courses/enrolled/1317178) <br>
 [Git and GitHub Tutorial For Beginners | Full Course [2021] [NEW]](https://www.youtube.com/watch?v=3fUbBnN_H2c&list=PLN_xGGp_EzEJvRKWLk0EIRI6sfT36-ACm&index=2&t=3156s) <br>
 [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE&list=PLN_xGGp_EzEJvRKWLk0EIRI6sfT36-ACm&index=2) <br>
 [Fundamentals with C#, Java, JS & Python Jan 21 - Git and GitHub - Kiril Kirilov](https://www.youtube.com/watch?v=LaWZYYuOkeM&list=PLN_xGGp_EzEJvRKWLk0EIRI6sfT36-ACm&index=2)<br>
-[GitHub: The Right Way - Владимир Тасев](https://www.youtube.com/watch?v=kFuQ2f1qb_0&list=PLN_xGGp_EzEJvRKWLk0EIRI6sfT36-ACm&index=6&t=12s)
-
+[GitHub: The Right Way - Владимир Тасев](https://www.youtube.com/watch?v=kFuQ2f1qb_0&list=PLN_xGGp_EzEJvRKWLk0EIRI6sfT36-ACm&index=6&t=12s) <br>
+[How to setup and use Git and GitHub with IntelliJ IDEA [2024] | Git | GitHub | IntelliJ](https://www.youtube.com/watch?v=qM5BScv1Z-s) <br>
+[Git Explained in 100 Seconds](https://www.youtube.com/watch?v=hwP7WQkmECE) <br>
+[Git Branches Tutorial](https://www.youtube.com/watch?v=e2IbNHi4uCI) <br>
+[Git & GitHub Tutorial for Beginners #8 - Branches](https://www.youtube.com/watch?v=QV0kVNvkMxc)
 
 
 
