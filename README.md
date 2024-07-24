@@ -138,10 +138,10 @@ For SSH key:
     ![step_19](git-commands/step_19.png) <br>
     We don't have this `README.md` file in our Local repository, so let's get it.
     
-    | `git fetch`                                                                                                                            | `git pull`                                                  | `git clone`                                                                  |
-    |----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------------------------|
-    | When you want to see what changes have been made in the remote repository before deciding to integrate them into your local repository | Downloads commits, files, and refs from a remote repository | If you want to download the repo, which you don't have on your Local machine |
-    | When you want to merge the changes use `git merge`                                                                                     | `git fetch` + `git merge`                                   | `git clone [URL]`                                                            |
+    | `git fetch`                                                                                | `git pull`                                                                                      | `git clone`                                                 |
+    |--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+    | Retrieves changes from a Remote repository without merging them into your Local repository | Fetches changes from a Remote repository and automatically merges them into your current branch | Creates a copy of a Remote repository on your Local machine |
+    | When you want to merge the changes use `git merge`                                         | `git fetch` + `git merge`                                                                       | `git clone [URL]`                                           |
 
 
 ## Branches
@@ -155,7 +155,7 @@ For SSH key:
 | `git branch -d [BRANCH_NAME]`                       | Delete branch                      |
 | `git switch [BRANCH_NAME]`                          | Switch branch                      |
 | `git checkout [BRANCH_NAME]`                        | Old way to switch branch           |
-| `git checkout -b [BRANCH_NAME]`                     | Create new branch adn switch to it |
+| `git checkout -b [BRANCH_NAME]`                     | Create new branch and switch to it |
 
 
 ## Additional information
