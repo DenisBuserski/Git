@@ -169,6 +169,4 @@ For SSH key:
 [Git Explained in 100 Seconds](https://www.youtube.com/watch?v=hwP7WQkmECE) <br>
 [Git Branches Tutorial](https://www.youtube.com/watch?v=e2IbNHi4uCI) <br>
 [Git & GitHub Tutorial for Beginners #8 - Branches](https://www.youtube.com/watch?v=QV0kVNvkMxc)
-
-
-
+[git with Intellij Idea](https://www.youtube.com/playlist?list=PLBb5HFCJVQtsCkbHJK7GWzjnAF00hfr8j)
