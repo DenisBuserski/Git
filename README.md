@@ -148,7 +148,9 @@ For SSH key:
 
 </details>
 
-## Branches
+<details>
+<summary><h2>Branches</h2></summary> 
+
 
 | Command                                             | Description                        |
 |-----------------------------------------------------|------------------------------------|
@@ -161,8 +163,10 @@ For SSH key:
 | `git checkout [BRANCH_NAME]`                        | Old way to switch branch           |
 | `git checkout -b [BRANCH_NAME]`                     | Create new branch and switch to it |
 
+</details>
 
-## Additional information
+<details>
+<summary><h2>Additional information</h2></summary> 
 
 [Git and Github Essentials](https://app.amigoscode.com/courses/enrolled/1317178) <br>
 [Git and GitHub Tutorial For Beginners | Full Course [2021] [NEW]](https://www.youtube.com/watch?v=3fUbBnN_H2c&list=PLN_xGGp_EzEJvRKWLk0EIRI6sfT36-ACm&index=2&t=3156s) <br>
@@ -173,4 +177,6 @@ For SSH key:
 [Git Explained in 100 Seconds](https://www.youtube.com/watch?v=hwP7WQkmECE) <br>
 [Git Branches Tutorial](https://www.youtube.com/watch?v=e2IbNHi4uCI) <br>
 [Git & GitHub Tutorial for Beginners #8 - Branches](https://www.youtube.com/watch?v=QV0kVNvkMxc) <br>
-[git with Intellij Idea](https://www.youtube.com/playlist?list=PLBb5HFCJVQtsCkbHJK7GWzjnAF00hfr8j) 
+[git with Intellij Idea](https://www.youtube.com/playlist?list=PLBb5HFCJVQtsCkbHJK7GWzjnAF00hfr8j) <br>
+
+</details>
