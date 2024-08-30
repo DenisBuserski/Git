@@ -53,20 +53,21 @@ For SSH key:
    ```
    This command initializes a new, empty repository. Git creates a new `.git` directory in your project. Using the 
    `ls -a` command we can see the mentioned directory.
+   
    ![step_3](git-commands/step_3.png)
-4. Create `file-1.txt` in the `test` folder - `touch file-1.txt`
-5. Check the status of your Working directory
+5. Create `file-1.txt` in the `test` folder - `touch file-1.txt`
+6. Check the status of your Working directory
    ```
    git status
    ```
    ![step_5](git-commands/step_5.png) <br>
    From the result, it can be seen that you don't have any commits and have 1 untracked file.
-6. Move the file to the Staging area
+7. Move the file to the Staging area
    ```
    git add file-1.txt
    ```
    ![step_6](git-commands/step_6.png)
-7. Commit the changes to you Local repository
+8. Commit the changes to you Local repository
    ```
    git commit -m"[MESSAGE]"
    
@@ -74,7 +75,7 @@ For SSH key:
    ```
    ![step_7](git-commands/step_7.png) <br>
     When you see the above message, that means you are ready to the push the changes and add them to the Remote repository.
-8. Add some text to `file-1.txt` - `echo "Sofia" >> file-1.txt`
+9. Add some text to `file-1.txt` - `echo "Sofia" >> file-1.txt`
    ![step_8](git-commands/step_8.png) <br>
    From the above message you can either prepare your changes for commit or discard the changes you have made.
    
@@ -83,45 +84,45 @@ For SSH key:
    | `git restore file-1.txt`               | `git add file-1.txt`                                   |
 
     With this command you can add 1 file at a time, but what if you have multiple...
-9. Add 2 more files to the `test` folder
+10. Add 2 more files to the `test` folder
    ![step_9](git-commands/step_9.png)
-10. Add ALL files at once to the Staging area
+11. Add ALL files at once to the Staging area
     ```
     git add .
     ```
     ![step_10](git-commands/step_10.png)
-11. Commit the changes
+12. Commit the changes
     ```
     git commit -m"Added 2 new files and changed file-1.txt"
     ```
     ![step_11](git-commands/step_11.png)
     
-12. Remove `file-3.txt`
+13. Remove `file-3.txt`
     ```
     rm -i file-3.txt
     ```
     ![step_12](git-commands/step_12.png)
-13. Prepare everything for commit 
+14. Prepare everything for commit 
     ```
     git add .
     ```
     ![step_13](git-commands/step_13.png)
-14. Commit
+15. Commit
     ```
     git commit -m"Deleted file-3.txt"
     ```
     ![step_14](git-commands/step_14.png)
-15. Check the history of your commits
+16. Check the history of your commits
     ```
     git log
     ```
     ![step_15](git-commands/step_15.png)
-16. Use the below command to rename the current branch to `main`
+17. Use the below command to rename the current branch to `main`
     ```
     git branch -M main
     ```
     ![step_16](git-commands/step_16.png)
-17. Create a repository on GitHub and connect it to your Local repository <br> 
+18. Create a repository on GitHub and connect it to your Local repository <br> 
     After you have created a repository on GitHub copy the below:
     ![step_17](git-commands/step_17.png)
     ```
@@ -129,14 +130,14 @@ For SSH key:
     
     git remote add origin git@github.com:DenisBuserski/test.git
     ```
-18. Push your changes:
+19. Push your changes:
     ```
     git push -u origin main
     ```
     ![step_18](git-commands/step_18.png) <br>
     We can see the files in GitHub now.
     ![step_18(1)](git-commands/step_18(1).png)
-19. Add `README.md` in your Remote repository
+20. Add `README.md` in your Remote repository
     ![step_19](git-commands/step_19.png) <br>
     We don't have this `README.md` file in our Local repository, so let's get it.
     
