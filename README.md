@@ -31,7 +31,8 @@ There are 2 types of Source-Control Systems
 
 </details>
 
-## Simple Git commands
+<details>
+<summary><h2>Simple Git commands</h2></summary> 
 
 Before following the below commands you would need to set Git with your GitHub profile and a SSH key. <br>
 For GitHub:
@@ -144,6 +145,7 @@ For SSH key:
     | Retrieves changes from a Remote repository without merging them into your Local repository | Fetches changes from a Remote repository and automatically merges them into your current branch | Creates a copy of a Remote repository on your Local machine |
     | When you want to merge the changes use `git merge`                                         | `git fetch` + `git merge`                                                                       | `git clone [URL]`                                           |
 
+</details>
 
 ## Branches
 
