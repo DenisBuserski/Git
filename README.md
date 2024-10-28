@@ -4,6 +4,7 @@
 
 <details>
 <summary><h2>Overview</h2></summary> 
+  
 - Software Configuration Management(SCM) = Version Control(VS/VCS)
 - Software principle
 - When several programmers write code, the codes of which are then combined into 1 project. VC allows this to be more balanced and controls the whole process
