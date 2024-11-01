@@ -159,7 +159,7 @@ For SSH key:
 | `git branch [BRANCH_NAME]`                          | Create branch                      |
 | `git branch -m [BRANCH_NAME]`                       | Rename the current branch          |
 | `git branch -m [OLD_BRANCH_NAME] [NEW_BRANCH_NAME]` | Rename branch you are not on       |
-| `git branch -d [BRANCH_NAME]`                       | Delete branch                      |
+| `git branch -d [BRANCH_NAME]`                       | Delete branch locally              |
 | `git switch [BRANCH_NAME]`                          | Switch branch                      |
 | `git checkout [BRANCH_NAME]`                        | Old way to switch branch           |
 | `git checkout -b [BRANCH_NAME]`                     | Create new branch and switch to it |
